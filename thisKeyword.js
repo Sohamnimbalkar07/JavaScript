@@ -1,22 +1,22 @@
-const user = {
-    userName : "Soham",
-    welcomeMessage : function() {
-        userName : "Nimbalkar",
-      console.log(`welcome ${this.userName}`);
-    }
-}
+// const user = {
+//     userName : "Soham",
+//     welcomeMessage : function() {
+//         userName : "Nimbalkar",
+//       console.log(`welcome ${this.userName}`);
+//     }
+// }
 
-user.welcomeMessage();
+// user.welcomeMessage();
 
-const name1 = "Soham";
-const arrow = () => {
-    // name : "Nimbalkar"
-    console.log(this);
-}
+// const name1 = "Soham";
+// const arrow = () => {
+//     // name : "Nimbalkar"
+//     console.log(this);
+// }
 
-arrow();
+// arrow();
 
-var name = "Soham";
+global.name = "Soham";
 function f1() {
     console.log(this.name);
 }

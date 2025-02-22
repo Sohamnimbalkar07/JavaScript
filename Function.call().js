@@ -2,6 +2,7 @@ const person1 = {
   name: "Soham",
   age: 18,
   greet: function () {
+    
     console.log("the name of person is", this.name, "and age is", this.age);
   },
 };
